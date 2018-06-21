@@ -89,6 +89,11 @@
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
@@ -130,6 +135,12 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-contract-stub-runner</artifactId>
       <version>2.0.0.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-contract-wiremock</artifactId>
+      <version>2.0.0.BUILD-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
 
   </dependencies>
