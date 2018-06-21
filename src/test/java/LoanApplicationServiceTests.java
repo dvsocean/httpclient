@@ -34,31 +34,9 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootTest(webEnvironment= WebEnvironment.MOCK)
 public class LoanApplicationServiceTests {
 
-  //@Autowired MockMvc mockMvc;
-
-//  @Autowired
-//  RestTemplate restTemplate;
-
-
   @Test
   public void shouldGiveMeLoan() throws Exception {
-//    HttpHeaders httpHeaders = new HttpHeaders();
-//    httpHeaders.add("Content-type", "application/json");
 
-//    mockMvc.perform(get("/person/1")
-//    .contentType(MediaType.APPLICATION_JSON));
-
-//    ResponseEntity<Object> response =
-//        restTemplate.exchange("http://localhost:8000/person/1", HttpMethod.GET,
-//            new HttpEntity<>("{}", httpHeaders),
-//            Object.class);
-//
-//    System.out.println(response);
-
-
-//    RestTemplate restTemplate = new RestTemplate();
-//    Object quote = restTemplate.getForObject("http://localhost:8000/person/1", Object.class);
-//    System.out.println(quote);
   }
 
   @Test
