@@ -19,16 +19,14 @@ public class CommController {
   }
 
   @GetMapping("/{id}")
-    public String TestCase(@PathVariable("id") int id){
+  public String TestCase(@PathVariable("id") int id){
     Person p = restTemplate().getForObject("http://localhost:5565/person/" + id, Person.class);
-      return p.getName();
-    }
+    return p.getName();
+  }
 
-  @GetMapping("/1234")
-  public void test1234(){
-
-    System.out.println("1234");
-
+  @GetMapping("/123")
+  public void TestCase123(){
+    System.out.println("123");
   }
 
 }
