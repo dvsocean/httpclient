@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264d6b53-1fdb-418c-b6d2-8f9520500bc3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CommController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CommController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/CommControllerTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="201">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -899,7 +894,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

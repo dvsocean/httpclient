@@ -33,6 +33,6 @@ public class LoanForPersonTest {
   @Test
   public void initTestTwo() throws Exception {
     mockMvc.perform(get("/1")).andDo(print()).andExpect(status().isOk())
-        .andExpect(jsonPath("$.name.text").isEmpty());
+        .andExpect(jsonPath("$").value("Jason"));
   }
 }
