@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264d6b53-1fdb-418c-b6d2-8f9520500bc3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/find_person_by_id.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/mappings/find_person_by_id.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CommController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CommController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/testpackage/LoanApplicationServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/testpackage/LoanApplicationServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PersonTest/LoanForPersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PersonTest/LoanForPersonTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,10 +30,12 @@
       <file leaf-file-name="CommController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="177">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +44,8 @@
       <file leaf-file-name="LoanForPersonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="222">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +53,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoanApplicationServiceTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="67">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +77,8 @@
       <file leaf-file-name="ContractRestConsumerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ContractRestConsumerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,14 +127,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/ContractRestConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/objects/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/objects/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoanApplicationServiceTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/CommController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/CommController.java" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" />
       </list>
     </option>
@@ -135,20 +148,20 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="27" />
+    <option name="x" value="24" />
+    <option name="y" value="23" />
     <option name="width" value="1407" />
     <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,8 +222,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="testpackage" type="462c0819:PsiDirectoryNode" />
-              <item name="LoanApplicationServiceTests" type="1a9f42e2:ClassTreeNode" />
+              <item name="CommController" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
@@ -220,7 +232,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="CommController" type="1a9f42e2:ClassTreeNode" />
+              <item name="ContractRestConsumerApplication" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
@@ -251,6 +270,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PersonTest" type="462c0819:PsiDirectoryNode" />
               <item name="LoanForPersonTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
@@ -291,16 +315,85 @@
               <item name="junit" type="462c0819:PsiDirectoryNode" />
               <item name="Assert" type="1a9f42e2:ClassTreeNode" />
             </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="MockMvc" type="1a9f42e2:ClassTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Assert&#9;PSI&#9;JAVA://org.junit.Assert" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/testpackage" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -323,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoanForPersonTest">
+  <component name="RunManager" selected="JUnit.LoanForPersonTest.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -364,46 +457,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LoanApplicationServiceTests.shouldGiveMeLoan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="httpclient" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.testpackage" />
-      <option name="MAIN_CLASS_NAME" value="com.example.testpackage.LoanApplicationServiceTests" />
-      <option name="METHOD_NAME" value="shouldGiveMeLoan" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LoanControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="httpclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LoanControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="LoanForPersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="httpclient" />
       <extension name="coverage">
@@ -418,6 +471,52 @@
       <option name="MAIN_CLASS_NAME" value="PersonTest.LoanForPersonTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LoanForPersonTest.initTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PersonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest.LoanForPersonTest" />
+      <option name="METHOD_NAME" value="initTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LoanForPersonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PersonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="PersonTest.LoanForPersonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -480,18 +579,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LoanApplicationServiceTests" />
-      <item itemvalue="JUnit.LoanControllerTest" />
-      <item itemvalue="JUnit.LoanApplicationServiceTests.shouldGiveMeLoan" />
       <item itemvalue="Application.ContractRestConsumerApplication" />
       <item itemvalue="JUnit.LoanForPersonTest" />
+      <item itemvalue="JUnit.LoanForPersonTest.initTest" />
+      <item itemvalue="JUnit.LoanForPersonTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoanForPersonTest" />
+        <item itemvalue="JUnit.LoanForPersonTest.test" />
+        <item itemvalue="JUnit.LoanForPersonTest.initTest" />
         <item itemvalue="Application.ContractRestConsumerApplication" />
+        <item itemvalue="JUnit.LoanForPersonTest" />
         <item itemvalue="JUnit.LoanApplicationServiceTests" />
-        <item itemvalue="JUnit.LoanApplicationServiceTests.shouldGiveMeLoan" />
-        <item itemvalue="JUnit.LoanControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -509,62 +608,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoanApplicationServiceTests - 2018.06.21 at 16h 34m 50s.xml">
-      <configuration name="LoanApplicationServiceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanApplicationServiceTests - 2018.06.21 at 16h 36m 40s.xml">
-      <configuration name="LoanApplicationServiceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanApplicationServiceTests - 2018.06.21 at 16h 39m 52s.xml">
-      <configuration name="LoanApplicationServiceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanApplicationServiceTests - 2018.06.21 at 16h 46m 33s.xml">
-      <configuration name="LoanApplicationServiceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanApplicationServiceTests - 2018.06.21 at 16h 50m 04s.xml">
-      <configuration name="LoanApplicationServiceTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 07h 40m 29s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 10h 01m 20s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 07h 44m 32s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 10h 01m 54s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 07h 45m 21s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 06m 11s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 07h 47m 47s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 06m 22s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 07h 51m 07s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 06m 31s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 08m 54s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 09m 32s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 13m 30s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 13m 50s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest_initTest - 2018.06.22 at 10h 14m 36s.xml">
+      <configuration name="LoanForPersonTest.initTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="27" width="1407" height="835" extended-state="0" />
+    <frame x="24" y="23" width="1407" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32867134" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32867134" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5062937" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35091576" />
-      <window_info anchor="right" id="AdbCommander" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.381685" />
+      <window_info anchor="right" id="AdbCommander" order="6" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -578,17 +677,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -764,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/objects/PersonService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/example/contract-rest-service/1.0/contract-rest-service-1.0.jar!/hello/Person.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -808,26 +893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ContractRestConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-597">
@@ -835,20 +900,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-1765">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ContractRestConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="222">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,6 +959,30 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -881,6 +1006,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>httpclient</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -895,6 +1033,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

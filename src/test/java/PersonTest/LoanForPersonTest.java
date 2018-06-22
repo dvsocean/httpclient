@@ -8,14 +8,20 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.json.AutoConfigureJsonTesters;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
+import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
+import org.springframework.cloud.contract.stubrunner.spring.StubRunnerProperties.StubsMode;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 @AutoConfigureMockMvc
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = LoanForPersonTest.class)
+@SpringBootTest(webEnvironment = WebEnvironment.MOCK, classes = LoanForPersonTest.class)
+//@AutoConfigureJsonTesters
+//@AutoConfigureStubRunner(ids = "com.example:contract-rest-service:+:stubs:5565", stubsMode = StubsMode.LOCAL)
 public class LoanForPersonTest {
 
   @Autowired
@@ -23,10 +29,14 @@ public class LoanForPersonTest {
 
   @Test
   public void initTest() throws Exception {
-//    this.mockMvc.perform(get("/person/2")).andDo(print()).andExpect(status().isOk())
-//        .andExpect(jsonPath("$.name").value("Emma"));
+    mockMvc.perform(get("/1")).andDo(print()).andExpect(status().isOk())
+        .andExpect(jsonPath("$[?(@.name == 'JackieBoy')]").value("JackieBoy"));
+  }
 
-    this.mockMvc.perform(get("/person/2")).andDo(print());
+  @Test
+  public void test() throws Exception {
+
+    mockMvc.perform(get("/1234")).andDo(print()).andExpect(status().isOk());
   }
 
 }
