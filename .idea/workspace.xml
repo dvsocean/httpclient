@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264d6b53-1fdb-418c-b6d2-8f9520500bc3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/testpackage/LoanApplicationServiceTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PersonTest/LoanForPersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CommController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CommController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/CommControllerTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,24 +28,11 @@
       <file leaf-file-name="CommController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
+            <state relative-caret-position="156">
               <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -54,8 +40,8 @@
       <file leaf-file-name="LoanForPersonTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+            <state relative-caret-position="201">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/objects/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -142,9 +128,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/CommController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/CommController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/objects/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/CommController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" />
       </list>
     </option>
@@ -159,7 +145,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="25" />
-    <option name="y" value="25" />
+    <option name="y" value="24" />
     <option name="width" value="1407" />
     <option name="height" value="835" />
   </component>
@@ -170,8 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,16 +264,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="CommControllerTest" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
@@ -416,7 +391,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -653,39 +629,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 10h 52m 37s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 35m 31s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 10h 52m 59s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 44m 30s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 10h 53m 37s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 45m 38s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 10h 55m 19s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 46m 29s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 03m 24s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 49m 18s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 04m 05s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 49m 55s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CommControllerTest - 2018.06.22 at 11h 04m 57s.xml">
-      <configuration name="CommControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 05m 36s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 50m 41s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 06m 25s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 51m 09s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 07m 13s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 51m 42s.xml">
+      <configuration name="LoanForPersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest - 2018.06.22 at 11h 53m 13s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="25" width="1407" height="835" extended-state="0" />
+    <frame x="25" y="24" width="1407" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -696,12 +672,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5062937" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46433565" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.381685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3934066" />
       <window_info anchor="right" id="AdbCommander" order="6" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -734,13 +710,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,13 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -764,13 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -779,13 +737,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -794,13 +746,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -809,13 +755,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -824,13 +764,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
@@ -839,13 +773,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/LoanController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -853,13 +781,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -867,13 +789,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/JsonReadWrite/JsonRw.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner/2.0.0.RELEASE/spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar!/org/springframework/cloud/contract/stubrunner/spring/AutoConfigureStubRunner.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -938,16 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -968,35 +875,31 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/objects/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="158">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        <state relative-caret-position="201">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

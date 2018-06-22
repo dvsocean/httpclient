@@ -26,7 +26,7 @@ public class CommController {
 
   @GetMapping("/123")
   public void TestCase123(){
-    System.out.println("123");
+    System.out.println("Non service endpoint");
   }
 
 }
