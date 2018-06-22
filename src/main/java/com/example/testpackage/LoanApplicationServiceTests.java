@@ -17,8 +17,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
 @AutoConfigureMockMvc
-@AutoConfigureJsonTesters
 @RunWith(SpringRunner.class)
+@AutoConfigureJsonTesters
 @AutoConfigureStubRunner(repositoryRoot = "classpath:.m2/repository/", ids = "com.example:contract-rest-service:+:stubs:8000")
 @SpringBootTest(webEnvironment= WebEnvironment.MOCK)
 public class LoanApplicationServiceTests {
