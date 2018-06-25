@@ -1,0 +1,38 @@
+{
+    "provider": {
+        "name": "person"
+    },
+    "consumer": {
+        "name": "person_consumer"
+    },
+    "interactions": [
+        {
+            "description": "a request for a specific",
+            "request": {
+                "method": "GET",
+                "path": "/person/1"
+            },
+            "response": {
+                "status": 200,
+                "body": {
+                    "id": 1,
+                    "name": "Jak",
+                    "surname": "Sparrow"
+                }
+            },
+            "providerStates": [
+                {
+                    "name": "a person exists"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "pact-specification": {
+            "version": "3.0.0"
+        },
+        "pact-jvm": {
+            "version": "3.5.13"
+        }
+    }
+}

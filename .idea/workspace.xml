@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264d6b53-1fdb-418c-b6d2-8f9520500bc3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/find_person_by_id.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/stubs/find_person_by_id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ProviderNotAvailableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testServices/PersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/CommController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/CommController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/CommController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/LoanForPersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ContractRestConsumerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/ContractRestConsumerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/objects/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/objects/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/LoanForPersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/LoanForPersonTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +27,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoanForPersonTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoanForPersonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+            <state relative-caret-position="8">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProviderNotAvailableTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ProviderNotAvailableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/objects/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/testServices/PersonService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +75,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-624">
-              <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+            <state relative-caret-position="-63">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
             </state>
           </provider>
         </entry>
@@ -54,12 +84,10 @@
       <file leaf-file-name="CommController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="225">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/objects/PersonService.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoanApplicationServiceTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/testpackage/LoanApplicationServiceTests.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest/LoanForPersonTest.java" />
@@ -118,6 +145,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CommController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/testServices/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/ProviderNotAvailableTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -131,7 +161,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1824" />
-    <option name="y" value="175" />
+    <option name="y" value="173" />
     <option name="width" value="1407" />
     <option name="height" value="835" />
   </component>
@@ -142,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -193,8 +224,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="CommController" type="1a9f42e2:ClassTreeNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +271,16 @@
               <item name="httpclient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="ProviderNotAvailableTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,97 +292,16 @@
               <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
-              <item name="stubrunner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
-              <item name="stubrunner" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="httpclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-contract-stub-runner:2.0.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-contract-stub-runner-2.0.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
-              <item name="stubrunner" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoConfigureStubRunner" type="1a9f42e2:ClassTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Assert&#9;PSI&#9;JAVA://org.junit.Assert" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/testpackage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -453,29 +412,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LoanForPersonTest.initTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="httpclient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LoanForPersonTest" />
-      <option name="METHOD_NAME" value="initTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="LoanForPersonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="httpclient" />
       <extension name="coverage">
@@ -490,6 +426,29 @@
       <option name="MAIN_CLASS_NAME" value="com.example.LoanForPersonTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProviderNotAvailableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="httpclient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ProviderNotAvailableTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -552,18 +511,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LoanForPersonTest" />
-      <item itemvalue="JUnit.LoanForPersonTest.initTest" />
       <item itemvalue="JUnit.LoanForPersonTest.test" />
       <item itemvalue="JUnit.CommControllerTest.TestCase" />
       <item itemvalue="JUnit.CommControllerTest" />
+      <item itemvalue="JUnit.ProviderNotAvailableTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LoanForPersonTest" />
+        <item itemvalue="JUnit.ProviderNotAvailableTest" />
         <item itemvalue="JUnit.CommControllerTest" />
         <item itemvalue="JUnit.CommControllerTest.TestCase" />
         <item itemvalue="JUnit.LoanForPersonTest.test" />
-        <item itemvalue="JUnit.LoanForPersonTest.initTest" />
       </list>
     </recent_temporary>
   </component>
@@ -581,40 +540,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 46m 25s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.25 at 11h 34m 02s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 47m 02s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.25 at 11h 35m 32s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 47m 26s.xml">
+    <history-entry file="ProviderNotAvailableTest - 2018.06.25 at 11h 43m 52s.xml">
+      <configuration name="ProviderNotAvailableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProviderNotAvailableTest - 2018.06.25 at 11h 47m 24s.xml">
+      <configuration name="ProviderNotAvailableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProviderNotAvailableTest - 2018.06.25 at 11h 49m 05s.xml">
+      <configuration name="ProviderNotAvailableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProviderNotAvailableTest - 2018.06.25 at 11h 49m 46s.xml">
+      <configuration name="ProviderNotAvailableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProviderNotAvailableTest - 2018.06.25 at 11h 50m 16s.xml">
+      <configuration name="ProviderNotAvailableTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoanForPersonTest - 2018.06.25 at 11h 50m 34s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 52m 45s.xml">
+    <history-entry file="LoanForPersonTest - 2018.06.25 at 11h 52m 54s.xml">
       <configuration name="LoanForPersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 53m 12s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 53m 41s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 54m 05s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 55m 12s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 55m 41s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoanForPersonTest - 2018.06.25 at 10h 58m 05s.xml">
-      <configuration name="LoanForPersonTest" configurationId="JUnit" />
+    <history-entry file="ProviderNotAvailableTest - 2018.06.25 at 11h 53m 01s.xml">
+      <configuration name="ProviderNotAvailableTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1824" y="175" width="1407" height="835" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -624,19 +582,19 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46433565" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46433565" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32867134" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34652016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35164836" />
       <window_info anchor="right" id="AdbCommander" order="6" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -807,30 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/objects/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/CommControllerTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/mappings/find_person_by_id.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/stubs/find_person_by_id.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/find_person_by_id.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-stub-runner/2.0.0.RELEASE/spring-cloud-contract-stub-runner-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/contract/stubrunner/spring/AutoConfigureStubRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -840,20 +775,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/CommController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="225">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testServices/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/objects/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/objects/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/LoanForPersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="38" column="51" lean-forward="true" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        <state relative-caret-position="8">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/ProviderNotAvailableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

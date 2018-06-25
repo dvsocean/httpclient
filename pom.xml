@@ -74,14 +74,6 @@
   </repositories>
 
   <dependencies>
-    <!--MY SERVICE APP DEP, COMING FROM m2-->
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>contract-rest-service</artifactId>
-      <version>1.0</version>
-    </dependency>
-    <!--MY SERVICE APP DEP, COMING FROM m2-->
-
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter</artifactId>
@@ -103,14 +95,12 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.springframework.restdocs/spring-restdocs-mockmvc -->
     <dependency>
       <groupId>org.springframework.restdocs</groupId>
       <artifactId>spring-restdocs-mockmvc</artifactId>
@@ -141,6 +131,32 @@
       <artifactId>spring-cloud-contract-wiremock</artifactId>
       <version>2.0.0.BUILD-SNAPSHOT</version>
       <scope>compile</scope>
+    </dependency>
+
+    <!--FOR TESTING SEND/REC ONLY-->
+    <dependency>
+      <groupId>au.com.dius</groupId>
+      <artifactId>pact-jvm-model</artifactId>
+      <version>3.5.17</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>au.com.dius</groupId>
+      <artifactId>pact-jvm-consumer_2.11</artifactId>
+      <version>3.5.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>au.com.dius</groupId>
+      <artifactId>pact-jvm-consumer-junit_2.11</artifactId>
+      <version>3.5.10</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>au.com.dius</groupId>
+      <artifactId>pact-jvm-model</artifactId>
+      <version>3.5.13</version>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>
